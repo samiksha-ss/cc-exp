@@ -11,5 +11,4 @@ def home():
 def about():
     return "This is a simple Flask application running on Microsoft Azure."
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+
