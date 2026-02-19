@@ -5,7 +5,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     greet = "Hello, This is Samiksha's experiment 4 for cloud computing~ >.<"
-    return greet
+    edit = "This is an edit to test the deployment process. Hope it works!!"
+    return greet + " " + edit
 
 @app.route("/about")
 def about():
